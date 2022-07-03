@@ -1,6 +1,6 @@
 # project-astraeus
 
-My Portfolio website
+My Portfolio website deployed on Heroku
 
 # Getting Started with Create React App
 
