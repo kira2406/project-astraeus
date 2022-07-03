@@ -1,21 +1,19 @@
-import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
           Hi, I'm <code>Kushwanth P</code>
         </p>
         <a
           className="App-link"
-          href="https://en.wikipedia.org/wiki/Penguin"
+          href="https://www.google.com/search?q=penguins&sxsrf=ALiCzsYvXbGMqPkgynlN9-798GOaXylUWQ:1656882389871&source=lnms&tbm=isch&sa=X&ved=2ahUKEwivkaHyz934AhVWwKACHcJvAOMQ_AUoAXoECAIQAw&biw=1920&bih=941&dpr=1"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Penguins
+          Click here for Penguins
         </a>
       </header>
     </div>
