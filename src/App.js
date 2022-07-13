@@ -1,21 +1,20 @@
 import "./App.css";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Profile from "./components/Profile";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Hi, I'm <code>Kushwanth P</code>
-        </p>
-        <a
-          className="App-link"
-          href="https://www.google.com/search?q=penguins&sxsrf=ALiCzsYvXbGMqPkgynlN9-798GOaXylUWQ:1656882389871&source=lnms&tbm=isch&sa=X&ved=2ahUKEwivkaHyz934AhVWwKACHcJvAOMQ_AUoAXoECAIQAw&biw=1920&bih=941&dpr=1"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Click here for Penguins
-        </a>
-      </header>
+      <BrowserRouter>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Profile />} />
+          <Route render={() => <Navigate to="/" />} />
+        </Routes>
+        <Footer />
+      </BrowserRouter>
     </div>
   );
 }
