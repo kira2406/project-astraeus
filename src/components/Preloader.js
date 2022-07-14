@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Grid } from '@mui/material';
 import "./preloader.css"
-import { ScaleLoader, SkewLoader } from 'react-spinners';
+import { ScaleLoader } from 'react-spinners';
 
 const PreLoader = () => {
   return <Container className="preloader-container" maxWidth="lg">

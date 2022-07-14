@@ -1,4 +1,4 @@
-import { Container } from "@mui/system";
+import { Container } from "@mui/material";
 import React from "react";
 import "./profile.css"
 import Landing from "./Landing/Landing";

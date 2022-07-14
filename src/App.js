@@ -1,12 +1,12 @@
 import { useState, useEffect } from 'react';
 import './App.css'
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
-import Header from './components/Header';
-import Footer from './components/Footer';
+// import Header from './components/Header';
+// import Footer from './components/Footer';
 import Profile from './components/Profile';
-import { ScaleLoader } from 'react-spinners';
+// import { ScaleLoader } from 'react-spinners';
 import Preloader from './components/Preloader';
-import { Container } from '@mui/system';
+import { Container } from '@mui/material';
 
 function App() {
   const [loading, setIsLoading] = useState(false);
