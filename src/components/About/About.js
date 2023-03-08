@@ -4,7 +4,9 @@ import "./about.css"
 
 const About = () => {
     return (
-        <Box class="about-container">About</Box>
+        <Box class="about-container">
+            <h1 className='title'>WORK <span style={{ "color": "#C77DFF" }}>EXPERIENCE</span></h1>
+        </Box>
     )
 }
 

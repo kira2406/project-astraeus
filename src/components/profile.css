@@ -1,3 +1,5 @@
-.profile-container{
-    /* background-color: aliceblue; */
+.profile-container {
+  /* background-color: aliceblue; */
+  padding: 0 !important;
+  margin: 0 !important;
 }
