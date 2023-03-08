@@ -1,18 +1,24 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-
-
-
-html{
+html {
   scroll-behavior: smooth;
 }
 
 body {
-  background: linear-gradient(
-    269.65deg,
-    rgba(8, 0, 15, 0.95) 8.44%,
-    rgba(25, 0, 45, 0.95) 71.59%,
-    rgba(35, 0, 62, 0.95) 99.55%
-  );
+  background-color: #e1b9ff;
+  min-height: 100vh;
+}
+
+.app-container {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.pos-absolute {
+  position: absolute;
+}
+
+.pos-relative {
+  position: relative;
 }

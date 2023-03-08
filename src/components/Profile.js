@@ -6,7 +6,7 @@ import About from "./About/About";
 
 const Profile = () => {
   return (
-    <Container class="profile-container" maxWidth="xl">
+    <Container className="profile-container" maxWidth="xl">
       <Landing />
       <About />
     </Container>

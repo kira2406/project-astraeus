@@ -20,7 +20,7 @@ function App() {
 
   return (
     <div className='App'>
-      <Container maxWidth="xl">
+      <Container className="app-container" maxWidth="xl">
         {loading ? (
           // <ScaleLoader loading={loading} color={"#9D4EDD"} size={50} />
           <Preloader />
